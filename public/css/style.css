@@ -1,0 +1,139 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+#lower_case a{
+    text-transform: lowercase !important;
+}
+
+#first_nav li{    
+    color: #333 !important;
+}
+
+.uk-logo{
+    padding: 2%;
+    max-width: 220px;
+    max-height: 70px;
+}
+
+#first_nav {
+    max-height: 70px;
+    background-color: #008080; /* TEAL */
+}
+
+.teal{
+    color: white;
+    background: #008080; /* TEAL */
+}
+
+#first_nav .uk-navbar-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#first_nav .uk-navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#first_nav .uk-navbar-nav > li > a,
+#first_nav .uk-navbar-nav > li > a:hover {
+    color: #FFF;
+}
+
+#no-margin h1, #no-margin h5{
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+#no-margin h5{
+    margin-top: 1% !important;
+}
+
+.card-custom{
+    cursor: pointer;
+}
+
+#banner_section{
+    background: #30D5C8; /* TURQUOISE */
+}
+
+#banner-section h1{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#banner-section .title{
+    font-size: 3em;
+    color: #f7444e;
+    font-weight: bold;
+}
+
+#banner-section .red{
+    font-weight: 700;
+}
+
+.custom-btn{
+    color: #000 !important;
+    background: #ADD8E6;
+    padding: 2% 4%;
+}
+
+#profile-image{
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+#testimonials h4, #testimonials i{
+    margin: 0;
+    padding: 0;
+}
+
+.Position{
+    color: #008080;
+}
+
+.Company{
+    color: rgb(167, 167, 24);
+}
+
+.teal-btn{
+    color: white;
+    background: #008080;
+    padding: 2% 6%;
+}
+
+#teal-btn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #008080;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+
+#footer p{
+    margin: 0;
+    padding: 0;
+}
+
+#footer p{
+    margin-top: 10px;
+}
+
+.info span {
+    margin-right: 8px; /* Adjust space between icon and text */
+}
